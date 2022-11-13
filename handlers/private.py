@@ -1,10 +1,9 @@
 import asyncio
-from time import time
-from datetime import datetime
+
 from helpers.filters import command
+from config import BOT_NAME as bn, BOT_USERNAME as bu, CHANNEL_UPDATES, SUPPORT_GROUP, OWNER_USERNAME as me, START_IMG
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-
 
 
 @Client.on_message(command("start") & filters.private & ~filters.group & ~filters.edited)
