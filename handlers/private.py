@@ -20,20 +20,29 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "♪ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ​ ♪", url=f"https://t.me/{bu}?startgroup=true"
-                  ],
-            [
+                        "✚ Add me to your Group", url=f"https://t.me/{bu}?startgroup=true"
+                       ),
+                 ],[
                     InlineKeyboardButton(
-                        "♪ ᴏᴡɴᴇʀ ♪", url=f"https://t.me/{me}"
+                        "📨 Channel ", url=f"https://t.me/marrkmusic"
                     ),
                     InlineKeyboardButton(
-                        "♪ sᴜᴘᴘᴏʀᴛ ♪", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "📨 Support ", url=f"https://t.me/craxymarrk"
                     )
-                  ],
-            [
+                  ],[
                     InlineKeyboardButton(
-                        "♪ Mᴀʀᴠᴇʟᴏᴜs ✨🤍 ♪", url=f"https://t.me/love_world135")
-                ]
+                        "👤 Bot Owner ", url=f"https://t.me/{me}"
+                    ),
+                    InlineKeyboardButton(
+                        "👨‍💻 Developer ", url=f"https://t.me/Marrk-85"
+                    ),
+                  ],[
+                    InlineKeyboardButton(
+                        "✅ Inline ", switch_inline_query_current_chat=""
+                    ),
+                    InlineKeyboardButton(
+                        "💡 Git repo", url="https://github.com/Marrk-85/MarkMusic"
+                    )]
             ]
        ),
     )
