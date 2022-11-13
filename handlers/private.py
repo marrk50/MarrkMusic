@@ -21,14 +21,16 @@ async def start_(client: Client, message: Message):
                 [
                     InlineKeyboardButton(
                         "♪ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ​ ♪", url=f"https://t.me/{bu}?startgroup=true"
-                  ],[
+                  ],
+            [
                     InlineKeyboardButton(
                         "♪ ᴏᴡɴᴇʀ ♪", url=f"https://t.me/{me}"
                     ),
                     InlineKeyboardButton(
                         "♪ sᴜᴘᴘᴏʀᴛ ♪", url=f"https://t.me/{SUPPORT_GROUP}"
                     )
-                  ],[
+                  ],
+            [
                     InlineKeyboardButton(
                         "♪ Mᴀʀᴠᴇʟᴏᴜs ✨🤍 ♪", url=f"https://t.me/love_world135")
                 ]
